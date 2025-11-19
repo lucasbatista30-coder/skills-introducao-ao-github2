@@ -14,51 +14,50 @@ _Comece a usar o GitHub em menos de uma hora._
 </header>
 
 <!--
-  <<< Author notes: Course start >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
+  <<< Author notes: Step 1 >>>
+  Choose 3-5 steps for your course.
+  The first step is always the hardest, so pick something easy!
+  Link to docs.github.com for further explanations.
+  Encourage users to open new tabs for steps!
 -->
 
+## Etapa 1: Crie uma branch
 
-## Bem-vindo
+_Bem-vindo ao "Introdução ao GitHub"! :wave:_
 
-As pessoas usam o GitHub para construir algumas das tecnologias mais avançadas do mundo. Seja para visualizar dados ou criar um novo jogo, há toda uma comunidade e um conjunto de ferramentas no GitHub que podem te ajudar a fazer isso ainda melhor. O curso “Introdução ao GitHub” do GitHub Skills te guia por tudo o que você precisa para começar a contribuir em menos de uma hora.
+**O que é o GitHub?**: O GitHub é uma plataforma de colaboração que utiliza o _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ para controle de versão. O GitHub é um local popular para compartilhar e contribuir com softwares [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source).
+<br>:tv: [Vídeo: O que é GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
 
-- **Para quem é**: Novos desenvolvedores, novos usuários do GitHub e estudantes.
-- **O que você vai aprender**: Vamos apresentar repositórios, branches, commits e pull requests.
-- **O que você vai criar**: Vamos fazer um pequeno arquivo Markdown que você pode usar como seu [README de perfil](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Pré-requisitos**: Nenhum. Este curso é uma ótima introdução para seu primeiro dia no GitHub.
-- **Duração**: Este curso leva menos de uma hora para ser concluído.
+**O que é um repositório?**: Um _[repositório](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ é um projeto que contém arquivos e pastas. Um repositório rastreia versões desses arquivos e pastas. Para mais informações, veja "[Sobre repositórios](https://docs.github.com/pt/repositories/creating-and-managing-repositories/about-repositories)" na documentação do GitHub.
 
-Neste curso, você irá:
+**O que é uma branch?**: Uma _[branch](https://docs.github.com/pt/get-started/quickstart/github-glossary#branch)_ é uma versão paralela do seu repositório. Por padrão, seu repositório tem uma branch chamada `main` e ela é considerada a principal. Criar branches adicionais permite copiar a branch `main` do seu repositório e fazer alterações com segurança, sem afetar o projeto principal. Muitas pessoas usam branches para trabalhar em funcionalidades específicas sem impactar outras partes do projeto.
 
-1. Criar uma branch
-2. Fazer um commit em um arquivo
-3. Abrir um pull request
-4. Mesclar seu pull request
+Branches permitem que você separe seu trabalho da branch `main`. Em outras palavras, o trabalho de todos está seguro enquanto você contribui. Para mais informações, veja "[Sobre branches](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
 
-### Como começar este curso
+**O que é um README de perfil?**: Um _[README de perfil](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ é basicamente uma seção "Sobre mim" no seu perfil do GitHub, onde você pode compartilhar informações sobre você com a comunidade no GitHub.com. O GitHub exibe seu README de perfil no topo da sua página de perfil. Para mais informações, veja "[Gerenciando seu README de perfil](https://docs.github.com/pt/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
 
-<!-- For start course, run in JavaScript:
-'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'skills',
-  template_name: 'introduction-to-github',
-  owner: '@me',
-  name: 'skills-introduction-to-github',
-  description: 'My clone repository',
-  visibility: 'public',
-}).toString()
--->
+![exemplo-readme-perfil](/images/profile-readme-example.png)
 
+### :keyboard: Atividade: Sua primeira branch
 
-[![iniciar-curso](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=abraaoalves&template_name=introducao-ao-github&owner=%40me&name=skills-introducao-ao-github&description=Meu+repositório+clonado&visibility=public)
+1. Abra uma nova aba do navegador e acesse seu repositório recém-criado. Em seguida, execute os passos na segunda aba enquanto lê as instruções nesta aba.
+2. Navegue até a aba **< > Code** no menu superior do seu repositório.
 
-1. Clique com o botão direito em **Iniciar curso** e abra o link em uma nova aba.
-2. Na nova aba, a maioria dos campos será preenchida automaticamente para você.
-   - Para proprietário, escolha sua conta pessoal ou uma organização para hospedar o repositório.
-   - Recomendamos criar um repositório público, pois repositórios privados irão [usar minutos do Actions](https://docs.github.com/pt/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Role para baixo e clique no botão **Criar repositório** no final do formulário.
-3. Após seu novo repositório ser criado, espere cerca de 20 segundos e então atualize a página. Siga as instruções passo a passo no README do novo repositório.
+   ![aba-code](/images/code-tab.png)
+
+3. Clique no menu suspenso da branch **main**.
+
+   ![dropdown-main-branch](/images/main-branch-dropdown.png)
+
+4. No campo, nomeie sua branch como `my-first-branch`. Neste caso, o nome deve ser exatamente `my-first-branch` para acionar o fluxo do curso.
+5. Clique em **Create branch: my-first-branch** para criar sua branch.
+
+   ![botao-criar-branch](/images/create-branch-button.png)
+
+   A branch será automaticamente alterada para a que você acabou de criar.
+   A barra de menu suspenso da branch **main** irá refletir sua nova branch e exibir o novo nome.
+
+6. Espere cerca de 20 segundos e então atualize esta página (a que você está seguindo as instruções). O [GitHub Actions](https://docs.github.com/pt/actions) irá atualizar automaticamente para o próximo passo.
 
 <footer>
 
