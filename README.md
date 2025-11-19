@@ -14,49 +14,36 @@ _Comece a usar o GitHub em menos de uma hora._
 </header>
 
 <!--
-  <<< Author notes: Step 3 >>>
-  Just a historic note: the previous version of this step forced the learner
-  to write a pull request description,
-  checked that `main` was the receiving branch,
-  and that the file was named correctly.
+  <<< Author notes: Step 4 >>>
+  Just a historic note: The previous version of this step required responding
+  to a pull request review before merging. The previous version also handled
+  if users accidentally closed without merging.
 -->
 
-## Etapa 3: Abra um pull request
+## Etapa 4: Faça o merge do seu pull request
 
-_Ótimo trabalho ao fazer aquele commit! :sparkles:_
+_Muito bem! :sunglasses:_
 
-Agora que você fez uma alteração no projeto e criou um commit, é hora de compartilhar sua proposta de alteração através de um pull request!
+Você criou um pull request com sucesso. Agora você pode fazer o merge do seu pull request.
 
-**O que é um pull request?**: A colaboração acontece em um _[pull request](https://docs.github.com/pt/get-started/quickstart/github-glossary#pull-request)_. O pull request mostra as alterações da sua branch para outras pessoas e permite que elas aceitem, rejeitem ou sugiram mudanças adicionais na sua branch. Em uma comparação lado a lado, este pull request vai manter as alterações que você acabou de fazer na sua branch e propor aplicá-las à branch principal `main` do projeto. Para mais informações sobre pull requests, veja "[Sobre pull requests](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)".
+**O que é um merge?**: Um _[merge](https://docs.github.com/pt/get-started/quickstart/github-glossary#merge)_ adiciona as alterações do seu pull request e branch à branch `main`. Para mais informações sobre merge, veja "[Fazendo o merge de um pull request](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)".
 
-### :keyboard: Atividade: Crie um pull request
+Como mencionado no passo anterior, você pode ter visto evidências do GitHub Actions rodando, que automaticamente avança suas instruções para o próximo passo. Você terá que esperar ele terminar antes de poder fazer o merge do seu pull request. Ele estará pronto quando o botão de merge estiver verde.
 
-Você pode ter notado que, após seu commit, uma mensagem foi exibida indicando seu push recente para a branch e oferecendo um botão chamado **Compare & pull request**.
+![captura de tela do botão verde de merge](/images/Green-merge-pull-request.png)
 
-![captura de tela da mensagem e botão](/images/compare-and-pull-request.png)
+### :keyboard: Atividade: Faça o merge do pull request
 
-Para criar um pull request automaticamente, clique em **Compare & pull request** e então pule para o passo 6 abaixo. Se não clicar no botão, as instruções abaixo te guiarão para configurar o pull request manualmente.
+1. Clique em **Merge pull request**.
+2. Clique em **Confirm merge**.
+3. Depois que sua branch for mesclada, você não precisará mais dela. Para excluir essa branch, clique em **Delete branch**.
 
-1. Clique na aba **Pull requests** no menu superior do seu repositório.
-2. Clique em **New pull request**.
-3. No menu suspenso **base:**, certifique-se de que **main** está selecionado.
-4. No menu suspenso **compare:**, clique em `my-first-branch`.
+  ![captura de tela mostrando botão de deletar branch](/images/delete-branch.png)
 
-   ![captura de tela mostrando seleção das branches](/images/pull-request-branches.png)
-
-5. Clique em **Create pull request**.
-6. Digite um título para seu pull request. Por padrão, o título será automaticamente o nome da sua branch. Para este exercício, edite o campo para `Adicionar meu primeiro arquivo`.
-7. O próximo campo ajuda você a fornecer uma descrição das alterações feitas. Aqui, você pode adicionar uma descrição do que realizou até agora. Como lembrete, você: criou uma nova branch, criou um arquivo e fez um commit.
-
-   ![captura de tela mostrando pull request](/images/Pull-request-description.png)
-
-8. Clique em **Create pull request**. Você será automaticamente direcionado para seu novo pull request.
-9. Espere cerca de 20 segundos e então atualize esta página (a que você está seguindo as instruções). O [GitHub Actions](https://docs.github.com/pt/actions) irá atualizar automaticamente para o próximo passo.
+4. Espere cerca de 20 segundos e então atualize esta página (a que você está seguindo as instruções). O [GitHub Actions](https://docs.github.com/pt/actions) irá atualizar automaticamente para o próximo passo.
 
 > [!NOTA]
-> Você pode ver evidências do GitHub Actions rodando na aba do pull request aberto! A imagem abaixo mostra uma linha que você pode ver no seu pull request após a Action terminar de rodar.
-> 
-> ![captura de tela de exemplo de linha de actions](/images/Actions-to-step-4.png)
+> Confira o passo **Finalizar** para ver o que você pode aprender a seguir!
 
 <footer>
 
