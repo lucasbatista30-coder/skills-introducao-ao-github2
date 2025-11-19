@@ -14,48 +14,49 @@ _Comece a usar o GitHub em menos de uma hora._
 </header>
 
 <!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
+  <<< Author notes: Step 3 >>>
+  Just a historic note: the previous version of this step forced the learner
+  to write a pull request description,
+  checked that `main` was the receiving branch,
+  and that the file was named correctly.
 -->
 
-## Etapa 2: Faça um commit em um arquivo
+## Etapa 3: Abra um pull request
 
-_Você criou uma branch! :tada:_
+_Ótimo trabalho ao fazer aquele commit! :sparkles:_
 
-Criar uma branch permite que você edite seu projeto sem alterar a branch `main`. Agora que você tem uma branch, é hora de criar um arquivo e fazer seu primeiro commit!
+Agora que você fez uma alteração no projeto e criou um commit, é hora de compartilhar sua proposta de alteração através de um pull request!
 
-**O que é um commit?**: Um _[commit](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_ é um conjunto de alterações nos arquivos e pastas do seu projeto. Um commit existe dentro de uma branch. Para mais informações, veja "[Sobre commits](https://docs.github.com/pt/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)".
+**O que é um pull request?**: A colaboração acontece em um _[pull request](https://docs.github.com/pt/get-started/quickstart/github-glossary#pull-request)_. O pull request mostra as alterações da sua branch para outras pessoas e permite que elas aceitem, rejeitem ou sugiram mudanças adicionais na sua branch. Em uma comparação lado a lado, este pull request vai manter as alterações que você acabou de fazer na sua branch e propor aplicá-las à branch principal `main` do projeto. Para mais informações sobre pull requests, veja "[Sobre pull requests](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)".
 
-### :keyboard: Atividade: Seu primeiro commit
+### :keyboard: Atividade: Crie um pull request
 
-Os passos a seguir vão te guiar pelo processo de realizar um commit no GitHub. Um commit registra alterações como renomear, modificar conteúdo, criar um novo arquivo e qualquer outra mudança feita no seu projeto. Para este exercício, fazer um commit requer primeiro adicionar um novo arquivo à sua nova branch.
+Você pode ter notado que, após seu commit, uma mensagem foi exibida indicando seu push recente para a branch e oferecendo um botão chamado **Compare & pull request**.
+
+![captura de tela da mensagem e botão](/images/compare-and-pull-request.png)
+
+Para criar um pull request automaticamente, clique em **Compare & pull request** e então pule para o passo 6 abaixo. Se não clicar no botão, as instruções abaixo te guiarão para configurar o pull request manualmente.
+
+1. Clique na aba **Pull requests** no menu superior do seu repositório.
+2. Clique em **New pull request**.
+3. No menu suspenso **base:**, certifique-se de que **main** está selecionado.
+4. No menu suspenso **compare:**, clique em `my-first-branch`.
+
+   ![captura de tela mostrando seleção das branches](/images/pull-request-branches.png)
+
+5. Clique em **Create pull request**.
+6. Digite um título para seu pull request. Por padrão, o título será automaticamente o nome da sua branch. Para este exercício, edite o campo para `Adicionar meu primeiro arquivo`.
+7. O próximo campo ajuda você a fornecer uma descrição das alterações feitas. Aqui, você pode adicionar uma descrição do que realizou até agora. Como lembrete, você: criou uma nova branch, criou um arquivo e fez um commit.
+
+   ![captura de tela mostrando pull request](/images/Pull-request-description.png)
+
+8. Clique em **Create pull request**. Você será automaticamente direcionado para seu novo pull request.
+9. Espere cerca de 20 segundos e então atualize esta página (a que você está seguindo as instruções). O [GitHub Actions](https://docs.github.com/pt/actions) irá atualizar automaticamente para o próximo passo.
 
 > [!NOTA]
-> `.md` é uma extensão de arquivo que cria um arquivo Markdown. Você pode aprender mais sobre Markdown visitando "[Sintaxe básica de escrita e formatação](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)" na nossa documentação ou fazendo o curso "[Comunicando usando Markdown](https://github.com/skills/communicate-using-markdown)" do Skills.
-
-1. Na aba **< > Code** do menu superior do seu repositório, certifique-se de estar na sua nova branch `my-first-branch`.
-
-2. Selecione o menu suspenso **Add file** e clique em **Create new file**.
-
-   ![opção criar novo arquivo](/images/create-new-file.png)
-
-3. No campo **Name your file...**, digite `PROFILE.md`.
-
-4. Na área **Enter file contents here**, copie o seguinte conteúdo para seu arquivo:
-
-   ```
-   Bem-vindo ao meu perfil do GitHub!
-   ```
-
-   ![captura de tela do arquivo profile.md](/images/my-profile-file.png)
-
-5. Clique em **Commit changes...** no canto superior direito acima da caixa de conteúdo. Para commits, você pode inserir uma breve mensagem que descreva as alterações feitas. Essa mensagem ajuda outras pessoas a saber o que está incluído no seu commit. O GitHub oferece uma mensagem padrão simples, mas vamos alterá-la um pouco para praticar. Primeiro, digite `Adicionar PROFILE.md` no primeiro campo de texto chamado "Commit message".
-
-   ![captura de tela adicionando novo arquivo com mensagem de commit](/images/commit-full-screen.png)
-
-6. Nesta lição, vamos ignorar os outros campos e clicar em **Commit changes**.
-7. Espere cerca de 20 segundos e então atualize esta página (a que você está seguindo as instruções). O [GitHub Actions](https://docs.github.com/pt/actions) irá atualizar automaticamente para o próximo passo.
+> Você pode ver evidências do GitHub Actions rodando na aba do pull request aberto! A imagem abaixo mostra uma linha que você pode ver no seu pull request após a Action terminar de rodar.
+> 
+> ![captura de tela de exemplo de linha de actions](/images/Actions-to-step-4.png)
 
 <footer>
 
